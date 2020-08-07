@@ -1,0 +1,294 @@
+body
+{
+    margin:0px auto;
+    width:100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul li
+{
+    list-style-type: none;
+    float: right;
+    padding-top:15px;
+    padding-right: 60px;
+    color:beige;
+    font-size: 15px;
+
+} 
+nav ul li a
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+nav ul
+{   margin-top: 0px;
+    float:right;
+      width:100%;
+    height: 50px;
+    background-color:black ;
+    position:fixed; /* to make the nav bar stick to each and every page*/
+   
+   
+}
+
+nav
+{   margin-top: 0px;
+    width:100%   /*We dont know the site width so this is where we use responsive designing */
+    height:50%;
+}
+
+
+.home
+{
+    background-image: linear-gradient(#e3fdfd,#cbf1f5) ;  /*Only for home section */
+    text-align: center;
+    font-size:15px;
+    color:black;
+    display: table; 
+    height:100vh;
+    width: 100%;
+}
+.home .inner
+{
+    display: table-cell;
+    vertical-align:middle;
+   
+}
+.home .inner img
+{
+    width:250px;
+    height:auto;
+    border-radius: 100%;
+    
+}
+
+.about
+{
+    background-image: url("https://image.freepik.com/free-photo/man-s-hand-holding-led-light-bulb-black-color-wall-background_43448-110.jpg");
+   
+    width:100%;
+    height:100vh;
+    display: table;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about .inner
+{
+    display: table-cell;
+    vertical-align: middle;
+    width:50%;
+    float:left; 
+}
+.about .inner h1
+{   color:ghostwhite;
+    text-align: left;
+    font-size: 40px;
+    padding-left: 20px;
+    font-weight: 100;
+    
+}
+.about .inner p
+{   width:100%;
+    font-size:30px;
+    padding-left: 20px;
+    line-height: 50px;
+    color:antiquewhite;
+}
+
+.education
+{  
+    display: table;
+    width:100%;
+    height:100vh;
+   padding-left:10px;
+    background-image: linear-gradient(#a6e3e9,#71c9ce)
+}
+
+.education .inner 
+    {
+        padding:15px;
+      
+    }
+
+
+.education .inner div
+{   
+padding:50px;
+margin-left: 5px;
+margin-right: 5px;
+float:left;    
+text-align: center;    
+}
+
+.education .inner div img
+{
+    width:100px;
+   height:auto;
+   
+}
+
+.skills
+{   background-image: url('https://previews.123rf.com/images/annaleni/annaleni1612/annaleni161200084/67657568-blue-coding-line-tile-pattern-illustration-of-outline-seamless-background-programming-skills-.jpg');
+    background-size: contain;
+  display:table;
+    width:100%;
+    height:100vh;
+    background-color: #eeeeee;
+}
+
+.skills .inner
+{   display: table-cell;
+    padding-left:30px;
+   vertical-align: middle;
+    background-color: rgb(0,0,0,0);
+   
+}
+
+.skills .inner div 
+{   
+    float:left;
+    text-align: center;  
+    padding-right:70px;
+    padding-left: 80px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-left: 30px;
+}
+.skills .inner div h3
+{  padding-bottom: 40px; }
+
+.project
+{   
+    width:100%;
+    height:100vh;
+    display: table;
+   background-image: linear-gradient(#cbf1f5,#e3fdfd);
+    padding-left: 15px;
+    padding-top:10px;
+
+}
+.project .inner
+{
+    display: table-cell;
+    vertical-align:middle;
+   
+}
+
+.project .inner div
+{padding-top:30px;
+padding-left: 30px;
+}
+.project .inner div li
+{
+    padding-bottom: 35px;
+}
+
+.certificates
+{  
+    width:100%;
+    height:100vh;
+    background-color: #a6e3e9;
+    padding-left: 15px;
+    padding-top:10px;
+
+}
+.certificates h1
+{   padding-bottom: 15px;
+    padding-left:10px; 
+}
+
+.certificates .inner div ul li
+{
+    padding-left:10px;
+    padding-bottom: 40px;
+    
+}
+.certificates .inner div ul li h3
+{
+  padding-right:5px;
+    padding-bottom: 55px;
+}
+
+.hobbies
+{   padding-left:15px;
+    display: table;
+    width:100%;
+    height:100vh;
+    background-color: #cadefc;
+}
+    
+.hobbies .inner 
+    {   display:table-cell;
+        padding:15px;
+        margin-top:40px;
+    }
+.hobbies .inner div h1
+{
+    padding-top:50px;
+}
+
+.hobbies .inner div
+{   
+    
+padding:80px;
+margin-left: 5px;
+margin-right: 5px;
+float:left;    
+text-align: center;    
+}
+
+.hobbies .inner div img
+{  width:200px;
+   height:250px;
+    border-radius:20%;
+}
+
+
+.handles
+{   padding-left:15px;
+   display:table;
+    width:100%;
+    height:100vh;
+    background-color: #dbe2ef;
+}
+.handles .inner 
+{ 
+        padding:15px;
+}
+
+.handles .inner  div 
+{   
+display: table-cell;
+padding-top:40px;
+padding-left:80px;
+margin-left: 5px;
+margin-right: 15px;
+float:left;    
+text-align:center;    
+}
+
+.handles .inner  div img
+{
+    width:130px;
+   height:auto;
+    border-radius: 100%;
+    padding-left:90px;
+    
+   
+}
+.handles .inner .down
+{
+    padding-left:110px;
+}
+
+
+/*responsive designing*/
+@media (min-width:320px) and (max-width:767px)
+{   
+   
+.home
+    {width=100%;}
+    
+}
+
+
+
